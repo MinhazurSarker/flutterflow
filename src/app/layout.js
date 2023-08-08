@@ -5,10 +5,6 @@ import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
-  title: 'Hello ',
-  description: 'Developers',
-}
 
 export default function RootLayout({ children }) {
   const [theme, setTheme] = useState('');
